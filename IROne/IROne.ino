@@ -1,3 +1,8 @@
+##
+## Ejemplo que lee los códigos IR de un control remoto común e imprime el valor HEX de dicha tecla presionada
+## Probado en un Arduino UNO
+##
+
 #include <IRremote.h>
 IRrecv irrecv(11); // Receive on pin 11
 decode_results results;
